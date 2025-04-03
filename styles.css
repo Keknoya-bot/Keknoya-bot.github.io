@@ -37,6 +37,10 @@ nav ul li a {
     display: block;
 }
 
-.animate {
-    animation: fadein 2s;
-}
+animate {
+ animation: fadein 2s; 
+ }
+ @keyframes fadein {
+ from { opacity: 0; } 
+ to { opacity: 1; } 
+ }
